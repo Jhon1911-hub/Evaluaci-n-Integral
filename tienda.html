@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéShop | Tienda</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">
+            <i class="bi bi-lightning-fill text-warning"></i> POKéSHOP
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link active" href="tienda.html">Tienda</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container my-5">
+
+    <h1 class="text-center mb-4">Nuestros Productos</h1>
+
+    <ul class="nav nav-tabs mb-4" id="tabsProductos" role="tablist">
+        <li class="nav-item">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#ropa">
+                Ropa
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tecnologia">
+                Colección
+            </button>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#novedades">
+                Novedades
+            </button>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div class="tab-pane fade show active" id="ropa">
+            <h4 class="mb-3">Categoría Ropa</h4>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagen/camisetaminimalista.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Oferta -25%</span>
+                            <h5 class="card-title">Camiseta Pokémon</h5>
+                            <p class="card-text">Algodón 100%, diseño minimalista.</p>
+                            <button class="btn btn-primary" data-bs-toggle="tooltip" title="Agregar al carrito">
+                                <i class="bi bi-cart"></i> Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagen/sudaderapikachu.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Oferta -20%</span>
+                            <h5 class="card-title">Sudadera Pikachu</h5>
+                            <p class="card-text">Ideal para clima frío.</p>
+                            <button class="btn btn-primary" data-bs-toggle="tooltip" title="Agregar al carrito">
+                                <i class="bi bi-cart"></i> Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagen/gorrapokemon.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Oferta -15%</span>
+                            <h5 class="card-title">Gorra Pokémon</h5>
+                            <p class="card-text">Diseño urbano moderno.</p>
+                            <button class="btn btn-primary" data-bs-toggle="tooltip" title="Agregar al carrito">
+                                <i class="bi bi-cart"></i> Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="tecnologia">
+            <h4 class="mb-3">Categoría Colección</h4>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagen/3d.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Figuras 3D</h5>
+                            <p class="card-text">Coleccionables de alta fidelidad, con detalles precisos para el aficionado exigente.</p>
+                            <button class="btn btn-success">Adquirir Producto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagen/peluchas.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Peluches</h5>
+                            <p class="card-text">Suavidad premium y acabados auténticos para un compañero de viaje duradero.</p>
+                            <button class="btn btn-success">Adquirir Producto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="imagen/cartas.png" class="card-img-top img-fluid" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cartas</h5>
+                            <p class="card-text">Artículos sellados y garantizados, listos para expandir tu colección y juego estratégico.</p>
+                            <button class="btn btn-success">Adquirir Producto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="novedades">
+            <div class="alert alert-warning">
+                Próximamente nuevos productos exclusivos Pokémon ⚡
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer class="bg-dark text-light mt-auto py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 PokéShop</p>
+            <div class="d-flex justify-content-center gap-3 mt-2">
+                <a href="https://www.instagram.com/pokemon/" class="text-light"><i class="bi bi-instagram"></i></a>
+                <a href="https://x.com/Pokemonlatam" class="text-light"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.youtube.com/@PokemonOficialES/videos" class="text-light"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
